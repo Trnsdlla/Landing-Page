@@ -1,2 +1,3 @@
 # Landing-Page
-Odin Project, html &amp; css knowledge aggregate, practice
+Odin Project, html & css knowledge aggregate, practice
+
