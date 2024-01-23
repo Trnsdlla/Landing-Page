@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    flex: 1;
 }
 
 .header {
@@ -54,7 +55,7 @@ button {
     text-align: center;
 }
 
-img {
+.one__img img {
     width: 350px
 }
 
@@ -62,4 +63,38 @@ img {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+/*         __________          */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    flex: 1;
+}
+
+.two__title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 25px;
+}
+
+.two__container {
+    display: flex;
+    gap: 8px;
+}
+
+.two__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two__info img {
+    width: 100px;
 }
